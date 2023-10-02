@@ -1,0 +1,139 @@
+.navchat{
+    background-color: black;
+    height: auto;
+
+   .navhe{
+        align-items: center;
+        margin: 0px 10px 0px 10px;
+    h4{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    .back{
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+   }
+}
+
+.search{
+    color: aliceblue;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: space-between;
+
+    .back{
+        margin-left: 10px;
+        color: aliceblue;
+        font-size: 1.3rem;
+    }
+
+    p{
+        margin-right: 10px;
+    }
+    input{
+        height: 4vh;
+        width: 37vh;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+}
+
+.notes{
+    display: flex;
+}
+
+.note{
+    background-color: rgb(0, 0, 0);
+    height: 8vh;
+    color: aliceblue;
+    p{
+        position: absolute;
+        top: 18%;
+        font-weight: bold;
+        margin-left: 7px;
+        margin-top: 2px;
+        font-size: 12px;
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 11%;
+        left: 3%;
+        margin: 5px;
+        font-size: 20px;
+        background-color: rgb(50, 47, 44);
+        border-radius: 100%;
+    }
+    img{
+        height: 40px;
+        width: 40px;
+        border-radius: 100px;
+        position: absolute;
+        margin-left: 20px;
+        top: 13%;
+    }
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        background-color: rgb(34, 29, 29);
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        height: 4vh;
+        width: 30vh;
+        border-radius: 5px;
+        border: none;
+        padding: 3px;
+        margin: 10px 10px 0px 10px;
+
+        
+    }
+
+    .prime{
+        background-color: aliceblue;
+        color: black;
+    }
+}
+
+
+.chatting{
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    .name{
+        display: grid;
+        margin-right: 50px;
+       h2{
+        font-size: 1rem;
+      
+       
+       }
+       p{
+        font-size: 0.7rem;
+        margin-right: 100px;
+       }
+    }
+    color: rgb(255, 255, 255);
+    display: flex;
+    
+    img{
+        height: 50px;
+        width: 50px;
+        border-radius: 100px;
+        margin-left: 10px;
+    }
+    .camera{
+        color: aqua;
+        font-size: 1.5rem;
+        margin-right: 20px;
+       }
+}

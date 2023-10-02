@@ -1,0 +1,60 @@
+.home {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  max-width: 100%;
+  overflow: scroll;
+  img {
+    height: auto;
+    width: 100%;
+  }
+
+  .share {
+    color: yellow;
+    font-size: 1.4rem;
+    margin: 10px;
+  }
+  .share2 {
+    color: yellow;
+    font-size: 1.4rem;
+    margin: 10px;
+    margin-left: 190px;
+  }
+  p {
+    font-weight: 800;
+    margin-left: 10px;
+  }
+  span {
+    color: rgb(255, 169, 58);
+    font-size: 13px;
+    font-weight: 100;
+  }
+h4{
+margin-left: 10px;
+}
+}
+
+.name {
+  display: flex;
+  p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    margin: 10px;
+  }
+ 
+}
+
+.dot{
+  margin-left: 170px;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}

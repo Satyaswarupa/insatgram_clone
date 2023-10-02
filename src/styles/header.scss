@@ -1,0 +1,20 @@
+nav{
+    background-color: black;
+    height: 7vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2{
+        margin-left: 10px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+.s1{
+    color: rgb(251, 255, 15);
+    font-size: 1.5rem;
+    font-weight: 900;
+   margin-right: 15px;
+}
